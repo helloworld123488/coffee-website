@@ -7,6 +7,7 @@ import Product from './pages/product/page.js';
 import Feedback from "./components/feedback/feedback.js";
 import Buynow from "./pages/buy-now/page";
 import Contactus from './pages/contact-us/page.js';
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Feedback/>
       <Buynow/>
       <Contactus/>
+      <Footer/>
     </div>
   );
 }
