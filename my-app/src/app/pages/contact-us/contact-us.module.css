@@ -1,0 +1,59 @@
+body {
+    background-color: #BB8465;
+    font-family: Arial, sans-serif;
+  }
+
+
+  /* adding space between contactus and buynow section */
+  .contactus-section{
+    margin-top: 200px;
+  }
+
+  .contact-container {
+
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #BB8465;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    background-color: #BB8465;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-form button:hover {
+    background-color: #a36f52;
+  }

@@ -1,0 +1,79 @@
+
+
+
+ /* adding margin to element in center position in page */
+ .buynow-section {
+    width: 80%;
+    margin: 0px auto;
+ }
+ 
+ /* we need space between header and product section so i am adding margin */
+ .buynow-section{
+    margin-top:110px;
+ }
+
+ /* heading of the product section */
+ .buynow-section h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:white;
+    text-decoration: underline;
+ }
+
+ .buynow-cards{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap:1rem;
+ }
+
+
+ /* i didn't add image because image is not working well i mean this --> .product-image-card */
+ .buynow-image-card img{
+    max-width:100%;
+    flex-basis:20%;
+    object-fit: cover;
+    width:600px;
+    height:200px;
+ }
+
+ .buynow-image-card{
+    height:400px;
+    width: 320px;
+    border: 1px solid transparent;       /* adds border */
+    border-radius: 12px;          /* rounded corners */
+    overflow: hidden;             /* ensures image respects radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #fff;
+    transition: transform 0.2s ease;
+    background-color: #775351;
+ }
+
+ 
+.card-title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* centering the card title h2 */
+.card-title h2{
+   color:white;
+   text-align: center;
+}
+
+
+.buynow-content{
+   position:relative;
+}
+
+.buynow-content button{
+   position: absolute;
+   min-width: 100%;
+   padding:20px 40px;
+   border-radius:10px;
+   bottom:-120px;
+   background-color:#B51144;
+   border:1px solid transparent;
+   color:white;
+   cursor:pointer;
+}

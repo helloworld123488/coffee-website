@@ -1,0 +1,58 @@
+ .product-section{
+   width: 80%;
+   margin: 0px auto;
+   /* adding space between header and product section */
+   margin-top: 110px;
+ }
+
+ .product-section h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:white;
+ }
+
+ .product-cards{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap:1rem;
+ }
+
+
+ /* i didn't add image because image is not working well i mean this --> .product-image-card */
+ .product-image-card img{
+    max-width:100%;
+    flex-basis:20%;
+    object-fit: cover;
+    width:600px;
+    height:200px;
+ }
+
+ .product-image-card{
+    height:400px;
+    width: 320px;
+    border: 1px solid transparent;       /* adds border */
+    border-radius: 12px;          /* rounded corners */
+    overflow: hidden;             /* ensures image respects radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #fff;
+    transition: transform 0.2s ease;
+    background-color: #EAD4B3;
+ }
+
+ /* giving padding to card content */
+ .product-content{
+    padding: 12px;
+    text-align: start;
+ }
+
+.card-title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.card-description {
+   margin-top:20px;
+   font-size: 0.9rem;
+   color: #555;
+}

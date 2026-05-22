@@ -1,0 +1,30 @@
+/* adding margin-top for space between about us and feedback */
+.feedback {
+    margin-top: 400px;
+    background: #966A51;        /* coffee-brown background */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.feedback h2 {
+  color: #fff;                /* white for contrast */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.feedback-list blockquote {
+  font-style: italic;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 4px solid #fff; /* white accent line */
+  background: rgba(255, 255, 255, 0.1); /* subtle overlay */
+  border-radius: 6px;
+  color: #fdfdfd;             /* light text for readability */
+}
+
+.feedback-list footer {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #ffe5c4;             /* warm cream accent */
+}

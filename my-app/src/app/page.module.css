@@ -1,0 +1,5 @@
+/* adding margin and width for parent element app */
+.app{
+  width:80%;
+  margin:0px auto;
+}

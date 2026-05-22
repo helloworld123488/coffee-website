@@ -1,0 +1,61 @@
+.about-us{
+        /* i added a height space between header and about us */
+        /* margin-top: 28vh; */
+        max-height:100vh;
+        width: 100%;
+        margin: 20vw 0px;
+}
+
+.about-us h1{
+        text-align: center;
+        text-decoration: underline;
+        color:white;
+}
+
+.about-us img {
+        border-radius: 30px;
+}
+
+/* instead of float:left; use flex box for better layout and no bug problem */
+.about-us-flex {
+        display: flex;
+        /* flex-wrap:wrap; */
+}
+
+.about-us-content {
+        margin-left:13px;
+        margin-top:20px;
+}
+
+.about-us-content p {
+        color:white;
+        font-size: 24px;
+}
+
+
+@media screen and (max-width:1274px) {
+        .about-us-flex{
+                margin-left:10px;
+                display:block;
+        }
+
+        .about-us img{
+                width:768px;
+                height:auto;
+                max-width:100%;
+        }
+}
+
+@media screen and (max-width:412px) {
+        .about-us-flex{
+                display:block;
+                margin:0px;
+                padding:0px;
+        }
+
+        .about-us img{
+                width:320px;
+                height:auto;
+                max-width:100%;
+        }
+}
