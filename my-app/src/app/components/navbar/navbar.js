@@ -34,7 +34,6 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className={`${styles['navbar-menu']} ${isOpen ? styles.open : ''}`}>
-        <li onClick={() => setMenu('home')} className={menu === 'home' ? styles.active : ''}>Home</li>
         <li onClick={() => setMenu('menu')} className={menu === 'menu' ? styles.active : ''}><Link href='/pages/product'>Menu</Link></li>
         <li onClick={() => setMenu('about-us')} className={menu === 'about-us' ? styles.active : ''}><Link href='/pages/about-us'>About Us</Link></li>
         <li onClick={() => setMenu('contact-us')} className={menu === 'contact-us' ? styles.active : ''}><Link href='/pages/contact-us'>Contact Us</Link></li>
